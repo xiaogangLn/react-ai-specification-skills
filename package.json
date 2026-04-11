@@ -1,0 +1,63 @@
+{
+  "name": "@xiaoganglaixin/react-ai-monorepo",
+  "version": "1.0.0",
+  "description": "React AI 编码规范技能包 - 一键初始化 Monorepo 项目",
+  "type": "commonjs",
+  "bin": {
+    "react-ai-monorepo": "cli.js",
+    "rai-mono": "cli.js"
+  },
+  "main": "cli.js",
+  "files": [
+    "cli.js",
+    "scripts/**/*",
+    ".cursor/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "init": "node cli.js init",
+    "shadcn": "node cli.js shadcn",
+    "shadcn:all": "node cli.js shadcn --all",
+    "shadcn:list": "node cli.js shadcn --list",
+    "tailwind": "node cli.js tailwind",
+    "tailwind-rules:init": "node scripts/tailwind-rules-generator.js",
+    "tailwind-rules:watch": "node scripts/tailwind-rules-watcher.js",
+    "test": "node cli.js --help"
+  },
+  "keywords": [
+    "react",
+    "monorepo",
+    "vite",
+    "pnpm",
+    "workspace",
+    "shadcn",
+    "shadcn-ui",
+    "tailwind",
+    "ai",
+    "rules",
+    "cursor",
+    "copilot",
+    "claude",
+    "cli",
+    "generator",
+    "boilerplate"
+  ],
+  "author": "xiaogangLaixin",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/react-ai-monorepo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/react-ai-monorepo/issues"
+  },
+  "homepage": "https://github.com/your-username/react-ai-monorepo#readme",
+  "devDependencies": {
+    "chokidar": "^3.5.3"
+  }
+}

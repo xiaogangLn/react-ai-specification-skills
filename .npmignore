@@ -1,0 +1,45 @@
+# 源码和测试文件（如果不需要发布）
+node_modules/
+dist/
+build/
+.next/
+out/
+
+# 开发配置
+.env
+.env.local
+.env.*.local
+*.log
+
+# 编辑器和 IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# 发布相关文档（保留主要文档）
+PUBLISH-GUIDE.md
+
+# 其他
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# 注意：以下目录会被发布到 npm
+# - scripts/      (CLI 脚本)
+# - .cursor/      (AI 编码规范)
+# - cli.js         (CLI 入口)
+# - package.json   (包配置)
+# - README.md      (主要文档)
+# - LICENSE        (许可证)

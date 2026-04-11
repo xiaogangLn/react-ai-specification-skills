@@ -1,0 +1,14 @@
+{
+  "rules": [
+    "/cursor/rules/global-enforce.md",
+    ".cursor/rules/component-usage.md",
+    ".cursor/rules/cross-platform.md",
+    ".cursor/rules/event-rules.md",
+    ".cursor/rules/hooks-rules.md",
+    ".cursor/rules/performance-rules.md",
+    ".cursor/rules/react-component.md",
+    ".cursor/rules/react-native.md"
+  ],
+  "review": ".cursor/review/code-review.md",
+  "skills": ".cursor/skills"
+}

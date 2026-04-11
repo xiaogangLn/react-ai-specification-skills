@@ -1,0 +1,15 @@
+{
+  "version": "0.1.0",
+  "organization": "通义灵码技能书",
+  "date": "January 2026",
+  "abstract": "《React / Next.js 性能最佳实践》是一本面向 React 与 Next.js 工程任务的通义灵码技能书，适用于编码、审查与重构场景下的性能优化。仓库以 README 作为总入口、SKILL 作为技能定义页、rules 目录作为规则主体，AGENTS.md 作为全量规则汇编。内容覆盖请求瀑布治理、包体积优化、服务端性能、客户端数据获取、重渲染控制、渲染性能以及 JavaScript 运行时优化等 8 大主题。",
+  "references": [
+    "https://react.dev",
+    "https://nextjs.org",
+    "https://swr.vercel.app",
+    "https://github.com/shuding/better-all",
+    "https://github.com/isaacs/node-lru-cache",
+    "https://vercel.com/blog/how-we-optimized-package-imports-in-next-js",
+    "https://vercel.com/blog/how-we-made-the-vercel-dashboard-twice-as-fast"
+  ]
+}
