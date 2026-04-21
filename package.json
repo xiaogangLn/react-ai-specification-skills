@@ -1,6 +1,6 @@
 {
   "name": "@xiaoganglaixin/react-ai-monorepo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React AI 编码规范技能包 - 一键初始化 Monorepo 项目",
   "type": "commonjs",
   "bin": {
